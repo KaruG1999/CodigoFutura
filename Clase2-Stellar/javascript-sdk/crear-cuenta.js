@@ -37,9 +37,12 @@ async function crearCuenta() {
   console.log("\n⚠️  IMPORTANTE: Guarda estas llaves en un lugar seguro\n");
 }
 
-// Creación de 5 cuentas
-
-for (let i = 1; i <= 5; i++) {
+async function crearCuentas() {
+  // Creación de 5 cuentas
+  for (let i = 1; i <= 5; i++) {
     console.log(`Creando cuenta ${i}...`);
     await crearCuenta();
+  }
 }
+
+crearCuentas();
