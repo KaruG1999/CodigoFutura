@@ -138,7 +138,7 @@ ls -lh target/wasm32-unknown-unknown/release/*.wasm
 
 ## 📸 Resultados
 
-[Compilación lib.rs](./img/compilacionLib.jpeg)
+![Compilación lib.rs](./img/compilacionLib.jpeg)
 
 ### Build Final
 
