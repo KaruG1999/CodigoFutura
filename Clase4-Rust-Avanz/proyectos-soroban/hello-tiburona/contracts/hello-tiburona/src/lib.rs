@@ -129,7 +129,6 @@ impl HelloContract {
     }
 
     // 5) Funciones de consulta
-
     pub fn get_contador(env: Env) -> u32 {
         env.storage()
             .instance()
