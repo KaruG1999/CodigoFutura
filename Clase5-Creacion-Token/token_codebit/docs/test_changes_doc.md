@@ -252,6 +252,7 @@ test test_transfer_to_self ... ok
 
 test result: ok. 18 passed; 0 failed
 ```
+![Test exitosos](../img/TestRunning.jpg)
 
 ---
 
