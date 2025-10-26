@@ -1,0 +1,19 @@
+# Carpetas de compilación de Rust
+/target/
+
+# Archivos de log, temporales, caches
+*.log
+*.tmp
+*.bak
+
+# Archivos de configuración locales de Soroban
+.soroban/
+
+# Archivos del editor o IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
